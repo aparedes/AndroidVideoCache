@@ -1,5 +1,5 @@
 repositories {
-    maven { url 'https://dl.bintray.com/alexeydanilov/maven' }
+maven { url 'https://jitpack.io' }
 }
 
 apply plugin: 'com.android.application'
