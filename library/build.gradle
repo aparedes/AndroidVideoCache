@@ -1,16 +1,4 @@
-buildscript {
-    repositories {
-        mavenCentral()
-        maven { url 'https://jitpack.io' }
-    }
-    dependencies {
-         implementation 'com.github.novoda:bintray-release:0.4.0'
-    }
-}
-
 apply plugin: 'com.android.library'
-apply plugin: 'idea'
-apply plugin: 'bintray-release'
 
 android {
     compileSdkVersion 23
@@ -38,13 +26,4 @@ idea {
 
 dependencies {
     compile 'org.slf4j:slf4j-android:1.7.21'
-}
-
-publish {
-    userOrg = 'alexeydanilov'
-    groupId = 'com.danikula'
-    artifactId = 'videocache'
-    publishVersion = android.defaultConfig.versionName
-    description = 'Cache support for android VideoView'
-    website = 'https://github.com/danikula/AndroidVideoCache'
 }
