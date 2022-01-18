@@ -3,10 +3,8 @@ plugins {
     id 'maven-publish'
 }
 
-plugins {
-    id 'com.android.library'
-    id 'maven-publish'
-}
+group = 'com.github.aparedes'
+version = '2.7.6'
 
 android {
    compileSdkVersion 31
