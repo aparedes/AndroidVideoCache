@@ -5,7 +5,6 @@ group = 'com.github.aparedes'
 
 buildscript {
     repositories {
-        google()
         mavenCentral()
     }
     dependencies {
