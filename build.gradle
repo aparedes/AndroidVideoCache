@@ -1,8 +1,3 @@
-apply plugin: 'java'
-apply plugin: 'maven'
-
-group = 'com.github.aparedes'
-
 buildscript {
     repositories {
         google()
