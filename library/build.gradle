@@ -20,3 +20,17 @@ android {
 dependencies {
     compile 'org.slf4j:slf4j-android:1.7.21'
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.aparedes'
+                artifactId = 'AndroidVideoCache'
+                version = '2.7.5'
+            }
+        }
+    }
+}
