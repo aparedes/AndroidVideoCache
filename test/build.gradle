@@ -64,7 +64,7 @@ dependencies {
     testCompile 'org.robolectric:robolectric:3.3.2'
     testCompile 'com.squareup:fest-android:1.0.0'
     testCompile 'com.google.guava:guava-jdk5:17.0'
-    testCompile('com.danikula:android-garden:2.1.4') {
+    testCompile('com.github.danikula:android-garden:v2.1.4') {
         exclude group: 'com.google.android'
     }
     testCompile 'org.mockito:mockito-all:1.9.5'
